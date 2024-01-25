@@ -1,0 +1,59 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9fd7f9;
+    height: 10rem;
+    width: 100%;
+}
+section {
+    max-width: 110rem;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+
+input {
+    font-size: 1.6rem;
+    width: 40rem;
+    margin: 1rem auto
+
+}
+#posts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    gap: 3rem;
+}
+#main {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+
